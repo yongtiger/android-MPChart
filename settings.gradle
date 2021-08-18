@@ -1,0 +1,3 @@
+rootProject.name = "android-MPChart"
+include ':app'
+include ':library'
