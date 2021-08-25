@@ -63,7 +63,7 @@ public abstract class PieRadarChartBase<T extends ChartData<? extends IDataSet<?
     }
 
     @Override
-    protected void init() {
+    public void init() {
         super.init();
 
         mChartTouchListener = new PieRadarChartTouchListener(this);

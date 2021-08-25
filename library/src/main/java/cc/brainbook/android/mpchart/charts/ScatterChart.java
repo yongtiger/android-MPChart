@@ -31,7 +31,7 @@ public class ScatterChart extends BarLineChartBase<ScatterData> implements Scatt
 
 
     @Override
-    protected void init() {
+    public void init() {
         super.init();
 
         mRenderer = new ScatterChartRenderer(this, mAnimator, mViewPortHandler);

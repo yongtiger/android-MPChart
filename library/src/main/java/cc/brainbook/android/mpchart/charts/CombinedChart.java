@@ -68,7 +68,7 @@ public class CombinedChart extends BarLineChartBase<CombinedData> implements Com
     }
 
     @Override
-    protected void init() {
+    public void init() {
         super.init();
 
         // Default values are not ready here yet

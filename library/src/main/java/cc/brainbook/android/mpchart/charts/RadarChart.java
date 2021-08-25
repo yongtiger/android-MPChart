@@ -80,7 +80,7 @@ public class RadarChart extends PieRadarChartBase<RadarData> {
     }
 
     @Override
-    protected void init() {
+    public void init() {
         super.init();
 
         mYAxis = new YAxis(AxisDependency.LEFT);

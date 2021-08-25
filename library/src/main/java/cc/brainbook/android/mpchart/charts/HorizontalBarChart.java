@@ -41,7 +41,7 @@ public class HorizontalBarChart extends BarChart {
     }
 
     @Override
-    protected void init() {
+    public void init() {
 
         mViewPortHandler = new HorizontalViewPortHandler();
 

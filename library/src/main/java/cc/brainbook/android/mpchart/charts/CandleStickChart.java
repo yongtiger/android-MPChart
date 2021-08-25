@@ -28,7 +28,7 @@ public class CandleStickChart extends BarLineChartBase<CandleData> implements Ca
     }
 
     @Override
-    protected void init() {
+    public void init() {
         super.init();
 
         mRenderer = new CandleStickChartRenderer(this, mAnimator, mViewPortHandler);

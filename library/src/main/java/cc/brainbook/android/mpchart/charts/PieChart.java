@@ -113,7 +113,7 @@ public class PieChart extends PieRadarChartBase<PieData> {
     }
 
     @Override
-    protected void init() {
+    public void init() {
         super.init();
 
         mRenderer = new PieChartRenderer(this, mAnimator, mViewPortHandler);
