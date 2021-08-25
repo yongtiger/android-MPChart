@@ -151,7 +151,7 @@ public abstract class BarLineChartBase<T extends BarLineScatterCandleBubbleData<
     }
 
     @Override
-    protected void init() {
+    public void init() {
         super.init();
 
         mAxisLeft = new YAxis(AxisDependency.LEFT);

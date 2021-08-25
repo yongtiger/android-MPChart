@@ -204,7 +204,7 @@ public abstract class Chart<T extends ChartData<? extends IDataSet<? extends Ent
     /**
      * initialize all paints and stuff
      */
-    protected void init() {
+    public void init() {
 
         setWillNotDraw(false);
         // setLayerType(View.LAYER_TYPE_HARDWARE, null);
